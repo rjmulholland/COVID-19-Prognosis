@@ -243,3 +243,13 @@ for i, ensem in enumerate(classif):
     auc = roc_auc_score(y_val, y_probab)
     print(auc)
 
+    
+    
+    
+#References
+#1.     Swamynathan M. Mastering Machine Learning with Python in Six Steps. Second Edi. Mastering Machine Learning with Python in Six Steps. Bangalore: Apress; 2019. 
+#2. 	Almeida F. Visualizing Machine Learning Models: Examples with Scikit-learn, XGB and Matplotlib [Internet]. Queirozf. 2020 [cited 2020 Jul 5]. Available from: https://queirozf.com/entries/visualizing-machine-learning-models-examples-with-scikit-learn-and-matplotlib
+#3. 	python - Plot Confusion Matrix with scikit-learn without a Classifier [Internet]. Stack Overflow. 2019 [cited 2020 Jul 15]. Available from: https://stackoverflow.com/questions/59165149/plot-confusion-matrix-with-scikit-learn-without-a-classifier
+#4. 	Al Imran A. Drawing multiple ROC-Curves in a single plot [Internet]. GitHub. 2019 [cited 2020 Jul 20]. Available from: https://abdalimran.github.io/2019-06-01/Drawing-multiple-ROC-Curves-in-a-single-plot
+#5. 	Brownlee J. Stacking Ensemble for Deep Learning Neural Networks in Python [Internet]. Machine Learning Mastery. 2018 [cited 2020 Jun 5]. Available from: https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
+# Initial NN code provided by Dr C Sainsbury. 
