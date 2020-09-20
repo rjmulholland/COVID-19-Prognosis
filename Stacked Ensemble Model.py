@@ -236,3 +236,15 @@ plt.title('Stacked Ensemble Calibration Curve', size=16)
 plt.savefig('calib.svg')
 plt.show()
 
+
+
+#References
+
+#1. 	Swamynathan M. Mastering Machine Learning with Python in Six Steps. Second Edi. Mastering Machine Learning with Python in Six Steps. Bangalore: Apress; 2019. 
+#2. 	Almeida F. Visualizing Machine Learning Models: Examples with Scikit-learn, XGB and Matplotlib [Internet]. Queirozf. 2020 [cited 2020 Jul 5]. Available from: https://queirozf.com/entries/visualizing-machine-learning-models-examples-with-scikit-learn-and-matplotlib
+#3. 	python - Plot Confusion Matrix with scikit-learn without a Classifier [Internet]. Stack Overflow. 2019 [cited 2020 Jul 15]. Available from: https://stackoverflow.com/questions/59165149/plot-confusion-matrix-with-scikit-learn-without-a-classifier
+#4. 	Al Imran A. Drawing multiple ROC-Curves in a single plot [Internet]. GitHub. 2019 [cited 2020 Jul 20]. Available from: https://abdalimran.github.io/2019-06-01/Drawing-multiple-ROC-Curves-in-a-single-plot
+#5.     Olson RS, La Cava W, Mustahsan Z, Varik A, Moore JH. Data-driven advice for applying machine learning to bioinformatics problems. In: Pacific Symposium on Biocomputing. 2018. p. 192–203. 
+#6. 	scikit learn. sklearn.calibration.CalibratedClassifierCV — scikit-learn 0.23.2 documentation [Internet]. [cited 2020 Jul 5]. Available from: https://scikit-learn.org/stable/modules/generated/sklearn.calibration.CalibratedClassifierCV.html#sklearn.calibration.CalibratedClassifierCV 
+#7.	    scikit learn. sklearn.ensemble.StackingClassifier — scikit-learn 0.23.2 documentation [Internet]. [cited 2020 Jul 5]. Available from: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html
+#Dr C Sainsbury provided initial NN code with dataset pre-processing. 
