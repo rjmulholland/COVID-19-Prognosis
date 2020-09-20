@@ -53,7 +53,7 @@ n_epochs = 40
 
 # data preparation
 # load synthetic COVID-19 dataset generated from R
-COVID_data = pd.read_csv('/Users/ryanjmulholland/documents/Data/covsynth.csv')
+COVID_data = pd.read_csv('~/documents/Data/covid_data.csv')
 COVID_data = COVID_data.values
 
 ## define X and y
@@ -88,9 +88,9 @@ for index, (train_indices, val_indices) in enumerate(kf.split(unique_IDs)):
     cw = np.round(y_train.shape[0] / np.sum(y_train), 0)
 #
     # save out files with linkids for output analysis
-    np.savetxt("/Users/ryanjmulholland/documents/Data/y_train_" + str(index) +  "_.csv", y_train, delimiter=",")
-    np.savetxt("/Users/ryanjmulholland/documents/Data/X_val_" + str(index) +  "_.csv", X_val[:, 0], delimiter=",")
-    np.savetxt("/Users/ryanjmulholland/documents/Data/y_val_" + str(index) +  "_.csv", y_val, delimiter=",")
+    np.savetxt("~/documents/Data/y_train_" + str(index) +  "_.csv", y_train, delimiter=",")
+    np.savetxt("~/Data/X_val_" + str(index) +  "_.csv", X_val[:, 0], delimiter=",")
+    np.savetxt("~/documents/Data/y_val_" + str(index) +  "_.csv", y_val, delimiter=",")
 #
     # retain and then remove ID cols
     X_train_IDs, X_val_IDs = unique_IDs[intersection_train], unique_IDs[intersection_val]
@@ -144,7 +144,7 @@ def fit_model(X_train, y_train):
 base_nns = 7
 for i in range(base_nns):
     nn_model = fit_model(X_train, y_train)
-    filename = '/Users/ryanjmulholland/documents/nnmodels/model_' + str(i + 1) + '.h5'
+    filename = '~/documents/nnmodels/model_' + str(i + 1) + '.h5'
     nn_model.save(filename)
 
 
@@ -153,7 +153,7 @@ def load_all_nns(n_nns):
     all_nns = list()
     for i in range(n_nns):
         # define the filename for stacked nn
-        filename = '/Users/ryanjmulholland/documents/nnmodels/model_' + str(i + 1) + '.h5'
+        filename = '~/documents/nnmodels/model_' + str(i + 1) + '.h5'
         # load nn
         model = load_model(filename)
         # add nn to assembled list
