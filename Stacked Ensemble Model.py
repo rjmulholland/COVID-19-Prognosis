@@ -247,4 +247,5 @@ plt.show()
 #5.     Olson RS, La Cava W, Mustahsan Z, Varik A, Moore JH. Data-driven advice for applying machine learning to bioinformatics problems. In: Pacific Symposium on Biocomputing. 2018. p. 192–203. 
 #6. 	scikit learn. sklearn.calibration.CalibratedClassifierCV — scikit-learn 0.23.2 documentation [Internet]. [cited 2020 Jul 5]. Available from: https://scikit-learn.org/stable/modules/generated/sklearn.calibration.CalibratedClassifierCV.html#sklearn.calibration.CalibratedClassifierCV 
 #7.	    scikit learn. sklearn.ensemble.StackingClassifier — scikit-learn 0.23.2 documentation [Internet]. [cited 2020 Jul 5]. Available from: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingClassifier.html
+#8.     Rename Pandas DataFrame Index [Internet].  Stack Overflow. 2013 [cited 2020 Jul 20].  Available from: https://stackoverflow.com/questions/19851005/rename-pandas-dataframe-index?noredirect=1&lq=1
 #Dr C Sainsbury provided initial NN code with dataset pre-processing. 
